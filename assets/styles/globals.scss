@@ -1,0 +1,25 @@
+#gana-la-materia.v-application {
+  max-width: 100% !important;
+  overflow-x: hidden!important;
+  ul {
+    padding-left: 0!important;
+    list-style: none!important;
+  }
+  a {
+    text-decoration: none!important;
+  }
+  .theme--light.v-icon {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  button {
+    text-transform: capitalize;
+  }
+  span {
+    font-size: 16px;
+  }
+
+  /* Global class helpers */
+  .cursor-pointer {
+    cursor: pointer!important;
+  }
+}
