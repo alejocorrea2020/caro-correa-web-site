@@ -22,7 +22,9 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/Logos/logo-ccm.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/Logos/logo-ccm.png' },
+      { href: 'https://fonts.googleapis.com/css2?family=Russo+One&display=swap', rel: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css2?family=Alata&display=swap', rel: 'stylesheet' }
     ]
   },
   /*

@@ -2,7 +2,7 @@
   <div class="cBlue">
     <v-row class="container mx-auto">
       <v-col cols="12">
-        <h2 class="text-center cPurple--text font-size-40 font-weight-medium">
+        <h2 class="text-center cYellow--text font-size-40 font-weight-medium">
           Proyectos
         </h2>
       </v-col>
