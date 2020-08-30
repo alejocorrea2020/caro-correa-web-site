@@ -2,7 +2,7 @@
   <div class="cBlue">
     <v-row class="container mx-auto">
       <v-col cols="12">
-        <SectionTitle>
+        <SectionTitle color="cYellow">
           Proyectos
         </SectionTitle>
       </v-col>

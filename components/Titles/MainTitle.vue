@@ -9,7 +9,7 @@ export default {
   props: {
     color: {
       type: String,
-      default: 'cYellow'
+      default: 'cPurple'
     }
   }
 }

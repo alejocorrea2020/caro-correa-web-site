@@ -1,7 +1,7 @@
 <template>
   <v-row class="container mx-auto" justify="center">
     <v-col cols="12" class="mb-4">
-      <SectionTitle color="cPurple">
+      <SectionTitle>
         Contáctame
       </SectionTitle>
     </v-col>

@@ -15,7 +15,7 @@
               cols="6"
               lg="3"
             >
-              <span class="white--text text-capitalize" :class="`${section.color}--text`">
+              <span class="text-capitalize" :class="`${section.color}--text`">
                 {{ section.name }}
               </span>
               <ul class="mt-6">
@@ -69,13 +69,13 @@
               md="8"
               class="d-flex align-center"
             >
-              <nuxt-link to="/">
+              <div style="cursor: pointer" @click="gotToHome()">
                 <img
                   alt="Logo Carolina Correa Martínez"
                   style="max-width: 80px"
                   src="/Logos/logo-ccm.png"
                 >
-              </nuxt-link>
+              </div>
               <span class="cPurple--text ml-6 pt-3">Carolina Correa Martínez, Todos los derechos reservados {{ new Date().getFullYear() }} &copy;</span>
             </v-col>
           </v-row>
@@ -138,6 +138,15 @@ export default {
         { icon: 'mdi-facebook', href: 'https://www.facebook.com/caro.correa.31' },
         { icon: 'mdi-gmail', href: 'mailto: carohockey1@gmail.com' }
       ]
+    }
+  },
+  methods: {
+    gotToHome () {
+      if (this.$route.name === 'index') {
+        this.$vuetify.goTo(0)
+      } else {
+        this.$router.push('/')
+      }
     }
   }
 }

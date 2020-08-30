@@ -21,8 +21,7 @@
             v-for="(item, index) in toolbarItems"
             :key="index"
             :to="{ name: item.pathName }"
-            class="mr-4 white--text font-weight-medium font-size-18"
-            :class="{'active-link': item.pathName === $route.name}"
+            class="mr-4 white--text font-weight-medium font-size-18 nav-item"
           >
             {{ item.name }}
           </nuxt-link>
@@ -76,6 +75,10 @@ export default {
     return {
       toolbarItems: [
         {
+          name: 'Home',
+          pathName: 'index'
+        },
+        {
           name: 'Sobre mi',
           pathName: 'aboutMe'
         },
@@ -98,8 +101,11 @@ export default {
 </script>
 
 <style scoped>
-  .active-link {
-    color: orangered;
+  .nav-item.nuxt-link-exact-active {
+    color: #E9D13D!important;
+    transition: none;
+    border-bottom: 2px solid #E9D13D;
+    padding-bottom: 8px;
   }
   .toolbar-logo {
     max-width: 50px!important;
