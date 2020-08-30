@@ -2,9 +2,9 @@
   <div class="cBlue">
     <v-row class="container mx-auto">
       <v-col cols="12">
-        <h2 class="text-center cYellow--text font-size-40 font-weight-medium">
+        <SectionTitle>
           Proyectos
-        </h2>
+        </SectionTitle>
       </v-col>
       <v-col cols="12">
         <ItemsList :items="projects" />

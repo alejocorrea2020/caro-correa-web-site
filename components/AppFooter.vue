@@ -134,10 +134,9 @@ export default {
         }
       ],
       socialNetworks: [
-        { icon: 'mdi-instagram', href: 'https://www.instagram.com/ganalamateria' },
-        { icon: 'mdi-facebook', href: 'https://www.facebook.com/gana.lamateria' },
-        { icon: 'mdi-youtube', href: 'https://www.youtube.com/channel/UCJX8avwgt9ku_KL1r_vWuhg' },
-        { icon: 'mdi-gmail', href: 'mailto: ganalamateria@gmail.com' }
+        { icon: 'mdi-instagram', href: 'https://www.instagram.com/caro1correa/?hl=en' },
+        { icon: 'mdi-facebook', href: 'https://www.facebook.com/caro.correa.31' },
+        { icon: 'mdi-gmail', href: 'mailto: carohockey1@gmail.com' }
       ]
     }
   }

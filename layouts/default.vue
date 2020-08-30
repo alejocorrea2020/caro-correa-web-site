@@ -1,7 +1,7 @@
 <template>
   <v-app id="gana-la-materia">
     <AppToolBar />
-    <v-main class="pt-0">
+    <v-main style="padding-top: 100px!important;">
       <nuxt />
     </v-main>
     <AppFooter />
