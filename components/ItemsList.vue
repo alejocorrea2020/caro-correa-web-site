@@ -11,7 +11,7 @@
       <ItemPreviewCard
         :image="item.image"
         :title="item.name"
-        @goTo="goTo(`/events/${index}`)"
+        @goTo="goTo(`/projects/${index + 1}`)"
       />
     </v-col>
   </v-row>

@@ -13,17 +13,22 @@
     <v-col class="pl-10 pb-10 d-flex flex-column justify-center" cols="12" md="6">
       <div class="mb-6">
         <h3 class="mb-2 font-size-26 cPurple--text">Celular</h3>
-        <a href="https://api.whatsapp.com/send?phone=573017853420" class="d-inline-flex align-center">
+        <a href="https://api.whatsapp.com/send?phone=573017853420" target="_blank" class="d-inline-flex align-center">
           <v-icon class="mr-2" color="cPurple" size="35px">mdi-whatsapp</v-icon>
           <span class="font-size-22">+57 3017853420</span>
         </a>
       </div>
 
       <div class="mb-4">
-        <h3 class="mb-2 font-size-26 cPurple--text">Correo</h3>
-        <a href="mailto: carohockey1@gmail.com" class="d-inline-flex align-center">
+        <h3 class="mb-2 font-size-26 cPurple--text">Correos</h3>
+        <a href="mailto: carohockey1@gmail.com" target="_blank" class="d-inline-flex align-center">
           <v-icon class="mr-2" color="cPurple" size="35px">mdi-gmail</v-icon>
           <span class="font-size-22">carohockey1@gmail.com</span>
+        </a>
+
+        <a href="mailto: carolina.corream@upb.edu.co" target="_blank" class="d-inline-flex align-center">
+          <v-icon class="mr-2" color="cPurple" size="35px">mdi-microsoft-outlook</v-icon>
+          <span class="font-size-22">carolina.corream@upb.edu.co</span>
         </a>
       </div>
 

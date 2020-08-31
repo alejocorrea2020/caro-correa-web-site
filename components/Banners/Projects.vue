@@ -9,6 +9,17 @@
       <v-col cols="12">
         <ItemsList :items="projects" />
       </v-col>
+      <v-col cols="12">
+        <div class="text-center">
+          <v-btn
+            color="white"
+            class="cBlue--text"
+            @click="$router.push({ name: 'projects' })"
+          >
+            Ver todos los proyectos
+          </v-btn>
+        </div>
+      </v-col>
     </v-row>
   </div>
 </template>
