@@ -25,7 +25,7 @@ export default {
         { image: '/Projects/proyecto-3.png', name: 'Batidor Manual para Milo' },
         { image: '/Projects/proyecto-4.png', name: 'Arco vegetal' },
         { image: '/Projects/proyecto-5.png', name: 'Sujeto' },
-        { image: '/Projects/proyecto-6.jpg', name: 'Arco vegetal' }
+        { image: '/Projects/proyecto-6.jpg', name: 'El gran salto entre mundos Cortazarianos' }
       ]
     }
   }

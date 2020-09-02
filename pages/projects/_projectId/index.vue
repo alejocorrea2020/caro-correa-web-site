@@ -10,6 +10,7 @@
                      text-center
                      mb-10
                      font-size-48-md
+                     font-size-36
                      font-weight-extra-medium-md"
             >
               {{ selectedProject.name }}
@@ -26,7 +27,7 @@
                 Descripción:
               </h2>
             </div>
-            <p class="text-justify font-size-22 line-height-15">
+            <p class="text-center text-md-justify font-size-22 line-height-15">
               {{ selectedProject.description }}
             </p>
           </v-col>

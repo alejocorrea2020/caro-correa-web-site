@@ -19,7 +19,7 @@
       <h3 class="cPurple--text font-size-36 mb-3">
         Carolina Correa Martìnez
       </h3>
-      <p class="font-size-22 text-justify" style="line-height: 1.4">
+      <p class="font-size-22 text-center text-md-justify" style="line-height: 1.4">
         Soy estudiante de diseño industrial, con interés en el mobiliario urbano, la
         morfología experimental y el desarrollo de nuevos materiales. También me
         intereso por el diseño de experiencias y gestión de los proyectos. Me
@@ -32,6 +32,7 @@
       <div class="mt-8">
         <v-btn
           color="cOrange"
+          :block="$vuetify.breakpoint.smAndDown"
           outlined
           @click="$router.push({ name: 'aboutMe' })"
         >

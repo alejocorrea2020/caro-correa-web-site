@@ -16,7 +16,7 @@
         <v-img
           :src="image"
           :alt="`Imagen galeria Caro Correa ${index}`"
-          style="height: 100%; object-fit: cover"
+          style="height: 100%; min-height: 170px; object-fit: cover"
         />
       </v-col>
     </v-row>

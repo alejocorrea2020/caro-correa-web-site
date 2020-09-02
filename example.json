@@ -1,0 +1,56 @@
+[
+  {
+    "description" : "Apila2 es un sistema lúdico didáctico que consiste en la configuración de diferentes personajes a partir de piezas con diferentes geometrías, dimensiones y texturas que permita a los niños entre los 4 y 5 años aprender a realizar operaciones numéricas simples como sumar y restar, esto se logra a partir del posicionamiento de las piezas que conforman los diferentes personajes. Los personajes que acompañan al usuario en esta aventura son Roco y Otto.",
+    "id" : 1,
+    "image" : "/Projects/proyecto-1.png",
+    "images" : [ "/Projects/Apila2/imagen1.jpg", "/Projects/Apila2/imagen2.jpg", "/Projects/Apila2/imagen3.jpg", "/Projects/Apila2/imagen4.jpg" ],
+    "materialsAndProcesses" : "Madera de roble, maquinado, pulido, pintura y esmaltado.",
+    "members" : [ "D.I María Camila Agudelo", "D.I Carolina Correa Martínez" ],
+    "name" : "Apila2"
+  },
+  {
+    "description" : "Zoociedad urbana es un conjunto de piezas de mobiliario de uso mixto diseñado para la fácil interacción entre perros y personas. Cuenta con un diván agility, una banca múltiple, un bebedero mixto y un contenedor de desechos orgánicos animales. Este contenedor es a su vez un punto de encuentro que estimula el intercambio de información en la comunidad.",
+    "id" : 2,
+    "image" : "/Projects/proyecto-2.png",
+    "images" : [ "/Projects/ZoociedadUrbana/imagen1.jpg", "/Projects/ZoociedadUrbana/imagen2.jpg", "/Projects/ZoociedadUrbana/imagen3.jpg", "/Projects/ZoociedadUrbana/imagen4.jpg" ],
+    "materialsAndProcesses" : "Concreto, vaciado y pulido.",
+    "members" : [ "D.I Gustavo Blanco Jaramillo", "D.I Carolina Correa Marínez" ],
+    "name" : "Zoociedad Urbana"
+  },
+  {
+    "description" : "Ambos batidores están diseñados para niños entre los 8 y los 12 años de edad, pero pueden ser utilizados por cualquier persona. Estos batidores son livianos y fáciles de utilizar, fueron diseñados para mezclar el milo con la leche, pero sirven para mezclar otros prodructos en polvo o granulos con un líquido. Su mayor diferencia es que el primero permite batir por medio de un mecanismo simple de presión, mientras que el segundo mezcla el producto cuando las cuerdas se enrollan y se desenrrollan.",
+    "id" : 3,
+    "image" : "/Projects/proyecto-3.png",
+    "images" : [ "/Projects/BatidorManualMilo/imagen1.png", "/Projects/BatidorManualMilo/imagen2.png", "/Projects/BatidorManualMilo/imagen3.png", "/Projects/BatidorManualMilo/imagen4.png", "/Projects/BatidorManualMilo/imagen5.png", "/Projects/BatidorManualMilo/imagen6.png" ],
+    "materialsAndProcesses" : "Acero inoxidable y poliestileno, maquinado y soplado.",
+    "members" : [ "D.I Carolina Correa Martínez" ],
+    "name" : "Batidor manual para milo"
+  },
+  {
+    "description" : "El arco vegetal es una pieza de mobiliario público que invita a los habitantes del sector y personas que transitan por el pasaje de la calle “El codo”, a experimentar el paso por este sitio de forma diferente, generando un nuevo reconocimiento del espacio y de esta forma fortalecer el sentido de pertenencia, identidad y afecto por el lugar.",
+    "id" : 4,
+    "image" : "/Projects/proyecto-4.png",
+    "images" : [ "/Projects/ArcoVegetal/imagen1.png", "/Projects/ArcoVegetal/imagen2.png", "/Projects/ArcoVegetal/imagen3.jpg", "/Projects/ArcoVegetal/imagen4.png" ],
+    "materialsAndProcesses" : "Contenedores en concreto, estructura interna en perfiles de acero cuadrados, fachada en láminas de acero perforado. Vaciado, soldadura, ensamble mecánico.",
+    "members" : [ "D.I Valentina Ruiz Velásquez", "D.I Iris Barboza Cabanillas", "D.I Tomas Cuartas Arcila", "D.I Carolina Correa Marínez" ],
+    "name" : "Arco vegetal"
+  },
+  {
+    "description" : "Sujeto es un inmovilizador para pacientes que se encuentren en un estado de agitación, que hayan sido entubados, que se encuentren bajo efectos de sustancias psicoactivas o tengan un comportamiento agresivo. Este inmovilizador se utiliza luego de que los pacientes han sido sedados y esto facilita su manipulación. El objetivo de este producto es optimizar las actividades del personal médico, mejorar la usabilidad de este y proporcionar comodidad y bienestar a los usuarios.",
+    "id" : 5,
+    "image" : "/Projects/proyecto-5.png",
+    "images" : [ "/Projects/Sujeto/imagen1.png", "/Projects/Sujeto/imagen2.png"],
+    "materialsAndProcesses" : "Tela anti fluidos, corte y confección.",
+    "members" : [ "D.I Gabriela Holguín Santscruz", "D.I Kelly Vargas Llanos", "D.I Carolina Correa Marínez" ],
+    "name" : "Sujeto inmovilizador autoajustable"
+  },
+  {
+    "description" : "Esta experiencia está diseñada para niños entre los 10 y los 14 años de edad. Está referenciada en tres obras de Julio Cortázar (Axolotl, La flor amarilla y Final del juego). Consta de un recorrido en el que los participantes deben dar un salto y decidir cual de los 3 portales quiere cruzar. En cada uno de recorridos se encontrarán unas pistas ilustradas que deberán ubicar en un tablero que se encuentra al final del recorrido. Las pistas les serviran para responder la pregunta que se formula al final del camino. Esta experiencia tiene como finalidad promover la lectura en los jóvenes.",
+    "id" : 6,
+    "image" : "/Projects/proyecto-6.png",
+    "images" : [ "/Projects/ElGranSalto/imagen1.jpg", "/Projects/ElGranSalto/imagen2.jpg", "/Projects/ElGranSalto/imagen3.jpg", "/Projects/ElGranSalto/imagen4.jpg", "/Projects/ElGranSalto/imagen5.jpg" ],
+    "materialsAndProcesses" : "Cartón, tubería de PVC, llantas de carro y tripa de pollo. Ensamble y corte.",
+    "members" : [ "D.I Juliana Mejía Villa", "D.I Juliana Jaramillo Duque", "D.I Andrés Felipe Tovar Morales", "D.I María de los Ángeles de Luca", "D.I Estefanía Giraldo Giraldo", "D.I Carolina Correa Martínez" ],
+    "name" : "El gran salto entre mundos Cortazarianos"
+  }
+]
