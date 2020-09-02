@@ -35,6 +35,7 @@
           <template v-slot:activator="{ on }">
             <v-btn
               class="hidden-md-and-up"
+              dark
               icon
               v-on="on"
             >
@@ -47,13 +48,13 @@
             <v-list-item
               v-for="(item, index) in toolbarItems"
               :key="index"
-              @click="$router.push(item.path)"
+              @click="$router.push({ name: item.pathName })"
             >
               <v-list-item-content class="py-1">
                 <v-list-item-title>
                   <v-btn
                     block
-                    color="gBlue"
+                    color="cBlue"
                     :dark="!item.outlined"
                     :outlined="item.outlined"
                   >
