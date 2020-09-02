@@ -10,7 +10,7 @@ export default {
   */
   target: 'static',
   router: {
-    base: 'caro-correa-web-site'
+    base: '/caro-correa-web-site/'
   },
   /*
   ** Headers of the page

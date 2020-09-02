@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "generate": "nuxt generate",
     "start": "nuxt start",
     "export": "nuxt export",
