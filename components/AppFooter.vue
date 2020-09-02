@@ -25,11 +25,20 @@
                   class="pb-1"
                 >
                   <nuxt-link
+                    v-if="!item.href"
                     :to="item.path"
                     class="list-item cDark--text"
                   >
                     {{ item.name }}
                   </nuxt-link>
+                  <a
+                    v-if="item.href"
+                    :href="item.href"
+                    target="_blank"
+                    class="list-item cDark--text"
+                  >
+                    {{ item.name }}
+                  </a>
                 </li>
               </ul>
             </v-col>
@@ -122,7 +131,7 @@ export default {
           name: 'Portafolio',
           color: 'cOrange',
           items: [
-            { name: 'Descargar portafolio en PDF', path: { name: 'membership' } }
+            { name: 'Descargar portafolio en PDF', href: '/portafolio.pdf' }
           ]
         },
         {

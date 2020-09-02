@@ -12,7 +12,9 @@
     </v-col>
     <v-col class="pl-10 pb-10 d-flex flex-column justify-center" cols="12" md="6">
       <div class="mb-6">
-        <h3 class="mb-2 font-size-26 cPurple--text">Celular</h3>
+        <h3 class="mb-2 font-size-26 cPurple--text">
+          Celular
+        </h3>
         <a href="https://api.whatsapp.com/send?phone=573017853420" target="_blank" class="d-inline-flex align-center">
           <v-icon class="mr-2" color="cPurple" size="35px">mdi-whatsapp</v-icon>
           <span class="font-size-22">+57 3017853420</span>
@@ -20,7 +22,9 @@
       </div>
 
       <div class="mb-4">
-        <h3 class="mb-2 font-size-26 cPurple--text">Correos</h3>
+        <h3 class="mb-2 font-size-26 cPurple--text">
+          Correos
+        </h3>
         <a href="mailto: carohockey1@gmail.com" target="_blank" class="d-inline-flex align-center">
           <v-icon class="mr-2" color="cPurple" size="35px">mdi-gmail</v-icon>
           <span class="font-size-22">carohockey1@gmail.com</span>
@@ -33,7 +37,9 @@
       </div>
 
       <div>
-        <h3 class="mb-2 font-size-26 cPurple--text">Redes sociales</h3>
+        <h3 class="mb-2 font-size-26 cPurple--text">
+          Redes sociales
+        </h3>
         <ul class="d-flex align-center">
           <li v-for="(socialNetWork, index) in socialNetworks" :key="index">
             <v-btn
