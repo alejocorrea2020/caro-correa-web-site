@@ -11,7 +11,7 @@
       cols="12"
       md="6"
     >
-      <v-img height="100%" :src="annexe.img" style="position: relative">
+      <v-img height="100%" min-height="250px" :src="annexe.img" style="position: relative">
         <div style="position: absolute; bottom: 20px; left: 20px">
           <h3 class="cOrange--text text-capitalize font-size-24">
             {{ annexe.title }}

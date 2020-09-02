@@ -1,5 +1,5 @@
 <template>
-  <h2 class="gDarkBlue--text font-size-40-md" :class="[`${color}--text`, `text-${justify}`]">
+  <h2 class="gDarkBlue--text font-size-40" :class="[`${color}--text`, `text-${justify}`]">
     <slot />
   </h2>
 </template>

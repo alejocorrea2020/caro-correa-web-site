@@ -29,7 +29,7 @@
         diferentes contextos, soy muy organizada y se me facilita expresar las
         ideas tanto verbal como gráficamente.
       </p>
-      <h3 class="cPurple--text font-size-26 mb-3">
+      <h3 class="cPurple--text font-size-36 mb-3">
         Intereses
       </h3>
       <div>

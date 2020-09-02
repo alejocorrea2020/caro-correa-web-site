@@ -56,7 +56,7 @@
                       target="_blank"
                       width="45px"
                     >
-                      <v-icon color="cRed" size="30px">
+                      <v-icon color="cPurple" size="30px">
                         {{ socialNetWork.icon }}
                       </v-icon>
                     </v-btn>
@@ -79,7 +79,7 @@
               <span class="cPurple--text ml-6 pt-3">Carolina Correa Martínez, Todos los derechos reservados {{ new Date().getFullYear() }} &copy;</span>
             </v-col>
           </v-row>
-          <nav class="hidden-sm-and-down d-flex align-center">
+          <nav class="d-none d-md-flex align-center">
             <ul class="d-flex align-center ml-6">
               <li v-for="(socialNetWork, index) in socialNetworks" :key="index">
                 <v-btn
